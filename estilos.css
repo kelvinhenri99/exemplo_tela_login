@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(235, 213, 124);
+}
+.login {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 30px rgb(131, 116, 55);
+    background-color: white;
+}
+.logo {
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    background-image: url("icone.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 30% 70%;
+}
+.login h1 {
+    color: rgb(218, 183, 44);
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+.btnlogin {
+    width: 50%;
+    margin-left: 5px;
+    border: 0px;
+    border-bottom: 2px dotted rgb(218, 183, 44);
+}
+.login ion-icon {
+    color: rgb(218, 183, 44);
+}
+.login form{
+    text-align: center;
+}
+.btnmanter {
+    color: rgb(153, 129, 31);
+}
+.btnmanter input { 
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.btnentrar {
+    background-color: rgb(218, 183, 44);
+    border: 0px;
+    padding: 5px;
+    width: 95%;
+    cursor: pointer;
+    color: rgb(68, 57, 12);
+    font-weight: bolder;
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+.btnentrar:hover {
+    box-shadow: 0px 0px 10px black;
+}
+.login a {
+    text-decoration: none;
+    color: rgb(153, 129, 31);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 18px;
+}
+.login a:hover {
+    color: green;
+}
+.linha {
+    border: 1px solid transparent;
+    height: 10px;
+}
+@media screen and (max-width: 800px) {
+    .login {
+        width: 95%;
+        margin-top: 30%;
+    }
+    }
